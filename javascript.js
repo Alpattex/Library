@@ -37,6 +37,7 @@ newBookBtn.addEventListener('click', function () {
         <input type="checkbox" id="read">
 
         <button type="submit">Add Book</button>
+        <button type="button" id="closeModal">Close</button> <!-- Add Close button -->
     `;
 
     form.addEventListener('submit', function (event) {
@@ -51,6 +52,11 @@ newBookBtn.addEventListener('click', function () {
             bookList.appendChild(newBook);
             modal.remove();
         }
+    });
+
+    const closeModalBtn = form.querySelector('#closeModal');
+    closeModalBtn.addEventListener('click', function () {
+        modal.remove(); // Close the modal when the button is clicked
     });
 
     modal.appendChild(form);

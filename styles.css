@@ -25,3 +25,33 @@ button {
     border: none;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+#bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.book {
+    background-color: #ECF0F1;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    margin-bottom: 0.5em;
+}

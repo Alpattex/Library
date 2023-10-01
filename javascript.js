@@ -14,4 +14,20 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    
+    function createBook(title, author, pages, read) {
+        const book = document.createElement('div');
+        book.classList.add('book');
+
+        const bookInfo = document.createElement('p');
+        bookInfo.textContent = `${title} by ${author}\n${pages} pages`;
+
+        const readStatus = document.createElement('p');
+        readStatus.textContent = read ? 'Read' : 'Not Read';
+        readStatus.style.color = read ? '#27AE60' : '#E74C3C';
+
+        book.appendChild(bookInfo);
+        book.appendChild(readStatus);
+
+        return book;
+    }
+});

@@ -6,10 +6,12 @@ body {
 }
 
 header {
-    background-color: #32af7b;
+    background-color: #2C3E50;
     color: #ECF0F1;
     text-align: center;
     padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
 }
 
 nav {
@@ -19,15 +21,22 @@ nav {
 }
 
 button {
-    background-color: #FF5733;
-    color: #ecf0f1;
+    background-color: #2a83bf;
+    color: #ECF0F1;
     padding: 0.5em 1em;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
+button img {
+    margin-right: 0.5em;
+}
+
+
 button:hover {
-    background-color: #00CED1;
+    background-color: #106e70;
 }
 
 #bookList {
@@ -54,4 +63,40 @@ button:hover {
 
 input {
     margin-bottom: 0.5em;
+}
+
+/* Add to styles.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+form {
+    background-color: #ECF0F1;
+    padding: 2em;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
 }

@@ -17,6 +17,8 @@ header {
 
 button#newBookBtn {
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
     width: 10%;
@@ -25,6 +27,12 @@ button#newBookBtn {
     font-size: 1em;
     padding: 0.75em 1.25em;
     border-radius: 8px; 
+}
+
+button#newBookBtn img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
 }
 
 h1 {
@@ -100,7 +108,7 @@ input {
 }
 
 form {
-    background: linear-gradient(to top, #949a9e, #2c3e50);
+    background: linear-gradient(to top, #686c6f, #2c3e50);
     padding: 2em;
     border-radius: 5px;
     max-width: 90%;
@@ -123,3 +131,8 @@ button {
     color: #0f0e0e;
 }
 
+@media screen and (max-width: 768px) {
+    .book {
+        width: calc(50% - 2em); 
+    }
+}

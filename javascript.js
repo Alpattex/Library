@@ -56,3 +56,6 @@ newBookBtn.addEventListener('click', function () {
     modal.appendChild(form);
     document.body.appendChild(modal);
 });
+
+window.addEventListener('resize', function () {
+});

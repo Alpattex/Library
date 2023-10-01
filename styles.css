@@ -24,6 +24,7 @@ button#newBookBtn {
     margin: 1em auto; 
     font-size: 1em;
     padding: 0.75em 1.25em;
+    border-radius: 8px; 
 }
 
 h1 {

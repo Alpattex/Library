@@ -1,12 +1,12 @@
 body {
-    background: #f9f9f9;
-    color: #333333;
+    background: #1D1F20;
+    color: #E5E5E5;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #32af7b;
     color: #ECF0F1;
     text-align: center;
     padding: 1em;
@@ -19,7 +19,7 @@ nav {
 }
 
 button {
-    background-color: #3498DB;
+    background-color: #FF5733;
     color: #ecf0f1;
     padding: 0.5em 1em;
     border: none;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-    background-color: #e74c3c;
+    background-color: #00CED1;
 }
 
 #bookList {
@@ -38,7 +38,7 @@ button:hover {
 }
 
 .book {
-    background-color: #ECF0F1;
+    background-color: #3A3C3D;
     border: 1px solid #BDC3C7;
     border-radius: 5px;
     padding: 1em;

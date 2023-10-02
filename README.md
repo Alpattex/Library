@@ -42,15 +42,15 @@ This web app provides a visually appealing and functional book library where you
 
 ## Usage
 
-1. Open the web app in your browser.
-2. Click the "NEW BOOK" button to add a new book.
-3. Fill in the book details in the provided form.
-4. Click "Add Book" to add the book to your library.
+1. Click on the "New Book" button to open the modal.
+2. Enter the details of the new book (Author, Title, Pages, Read status).
+3. Click "Add Book" to save the book to your library.
+4. View your library with a table displaying all added books.
 
 ## Enhancements
 
 - To enhance the design further, consider customizing the styles in `styles.css`.
-- Add more features such as book categories, sorting options, or a search function.
+- Add more features such as book categories, sorting options, or a search function based on your preferences.
 
 ## Contributing
 
@@ -59,3 +59,8 @@ Contributions are welcome! If you have ideas for improvements or find any issues
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+* Built with HTML, CSS, and JavaScript.
+* Utilizes modern web design principles for a pleasant user experience.
